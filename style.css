@@ -1,4 +1,7 @@
 #hinder {
     width: 500px;
     height: 500px;
+    border: solid 3px;
+    border-color: rgb(255, 0, 0);
+    border-width: 2px;
 }
