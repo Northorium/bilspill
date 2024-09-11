@@ -1,4 +1,5 @@
 let hinderArray = ["gul","blå","rød"];
+const hinder = document.getElementById("hinder");
 console.log(tilfeldigHinder());
 
 
@@ -7,12 +8,12 @@ function tilfeldigHinder () {
     let hinderType = hinderArray[random];
 
     if (hinderType = ("gul")) {
-    document.getElementById("hinder").style.backgroundColor = 'yellow'
+    hinder.style.backgroundColor = 'yellow'
     }
     if (hinderType = ("rød")) {
-    document.getElementById("hinder").style.backgroundColor = 'red'
+    hinder.style.backgroundColor = 'red'
     }
     if (hinderType = ("blå")) {
-    document.getElementById("hinder").style.backgroundColor = 'blue'
+    hinder.style.backgroundColor = 'blue'
     }
 }
